@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: #fa6980;
+    --secondary-color:#f5f7fd;
+    --paregrah-color:#ccc;
+    --format-color:#fff;
+    
+}
+/* nav */
+.nave{
+     background-color: gray;
+}
+.logo{
+width: 3em;
+height: 3em;
+margin-left: 3em;
+}
+/* sec2 */
+.header-img{
+    background: url(../img/imag1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.format{
+    padding: 6rem;
+}
+.img-head{
+    color: var(--format-color);
+    padding-top: 1rem;
+    text-transform: capitalize;
+}
+.img-head2{
+    color: var(--format-color);
+}
+.paregrah{
+    color: var(--format-color);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    text-transform: capitalize;
+}
+.img-btn{
+    color: var(--format-color);
+    background-color: var(--main-color);
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: none;
+    transition: linear .3s;
+}
+.img-btn:hover{
+    background-color: var(--paregrah-color);
+    color: var(--main-color);
+    cursor: pointer;
+}
+.head-box{
+    display: flex;
+    justify-content: space-between;
+}
+.box-holder{
+    padding: 1rem;
+}
+/* .format.line{
+   background-color: grey;
+   width: 100%;
+   height: 2px;
+} */
+.box-head{
+    color: var(--main-color);
+    font-size: 22px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.paregraph{
+    color: var(--paregrah-color);
+}
+.box-head2{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.box-head1{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.link{
+    color: var(--paregrah-color);
+}
+.head-box2{
+    padding-bottom: 15px;
+}
+/* sec3 */
+.section{
+    background-color: #eee;
+}
+.foote{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imge{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.section h2{
+    padding-top: .7em;
+}
+
+/* sec4 */
+.all-sec3{
+    background-color: var(--background);
+}
+.my-heading{
+    display: flex;
+    flex-direction: row;  
+    margin: 20px; 
+    margin: auto;
+    
+}
+.my-slider-icon button{
+    color: #000;
+}
+.my-slider-icon{
+    display: grid!important;
+    grid-gap:15px;
+    grid-template-areas: " btn1 btn2";
+}
+.slider-icon{
+    position: static!important;
+}
+.carousel-control-prev{
+    grid-area: btn1!important;
+}
+.carousel-control-next{
+    grid-area: btn2!important;
+}
+.pervious-one:focus, .pervious-one:hover {
+    color: #000;
+    text-decoration: none;
+    outline: 0;
+    opacity:1;}
+
+.next-one:focus, .next-one:hover {
+        color: #000;
+        text-decoration: none;
+        outline: 0;
+        opacity:1;
+    }
+.images{
+    background-color: #eee;
+}
+
+.box-big{
+    position: relative;
+    margin-bottom: 30px;
+    
+}
+.text-photo{
+    position: absolute;
+    left: 8%;
+    bottom: 10%;
+    color: #fff;
+}
+.city-box{
+    position: absolute;
+    left: 8%;
+    top: 10%;
+    color: #fff;
+}
+.time-icons{
+    color: rgba(255,255,255,.5);
+    
+}
+.text-card1{
+    color: rgba(255,255,255,.5);
+    margin-left: 5px;
+    font-weight: 600;
+}
+.text-photo p{
+margin-bottom: 0px;
+}
+
+.box-small{
+   display: flex;
+   flex-direction: column;
+}
+.box-smallImage{
+    width: 100%;
+    border: none;
+    height: 290px;
+    background-color: var(--background);
+}
+.box-smallImage img{
+    height: 210px;
+    width: 336px;
+} 
+
+.text-body{
+    padding: 8px;
+}
+.time-icon{
+    color: rgba(0,0,0,.5);
+    
+}
+.text-card{
+    color: rgba(0,0,0,.5);
+    margin-left: 5px;
+    font-weight: 600; 
+}
+.text-underline{
+    text-decoration: underline;
+    color: rgba(0,0,0,.5);
+    font-weight: 600;
+}
+/* footer */
+footer{
+    background-color: #343638;
+    padding: 3em;
+}
+.send{
+    margin-left:  6em;  
+}
+.send span{
+    position: absolute;
+    top:10px;
+    left: 20em;
+    color: #fff;
+    
+}
+ .send input {
+    background:transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+.send input span :focus{
+color: #000;
+
+}
+.send p {
+    color: #fff;
+    font-size: .7rem;
+    margin-left: .5em;
+    padding: .6em;
+}
+footer  h5{
+    color:#fff;
+    font-size: 1rem;
+    font-weight: 900;
+}
+footer a{
+color:#fff;
+font-size: 1rem;
+}
+.icons{
+padding: .5em;
+padding-left: 3em;
+}
+.icon{
+    padding: .8em;
+ }
+footer .img-fluid{
+width: 3em;
+height: 3em;
+ }
