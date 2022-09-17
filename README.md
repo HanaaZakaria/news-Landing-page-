@@ -7,7 +7,7 @@ A page to display news in detail for some countries and cities
 
 ## visit site💥
 
-[click here](https://hanaazakaria.github.io/fouce-website/)
+[CLICK HERE](https://hanaazakaria.github.io/fouce-website/)
 
 
 --------
